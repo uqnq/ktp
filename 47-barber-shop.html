@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>47 Barber Shop: Gaya Terbaik di Kota Anda</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <style>
+        /* Reset Dasar dan Mobile First Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 768px;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        .content-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #a0522d; /* Warna coklat hangat khas barber */
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        .barber-svg {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+
+        /* Styling untuk Daftar Layanan */
+        .services-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services-list li {
+            padding: 10px 0;
+            border-bottom: 1px dotted #ccc;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .services-list li:last-child {
+            border-bottom: none;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1a1a1a;
+            color: white;
+            width: 100%;
+            font-size: 0.9em;
+        }
+
+        /* Media Queries untuk Perangkat yang Lebih Besar (Tablet/Desktop) */
+        @media (min-width: 768px) {
+            .container {
+                max-width: 900px;
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>47 Barber Shop</h1>
+        <p>Tempat Menciptakan Gaya Klasik dan Modern Anda</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- SVG Gambar Representatif -->
+        <svg class="barber-svg" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="barberTitle">
+            <title id="barberTitle">Ilustrasi Gaya Rambut Klasik</title>
+            <desc>Gaya rambut pompadour klasik dengan garis cukur yang tajam.</desc>
+            
+            <!-- Latar Belakang -->
+            <rect width="400" height="150" fill="#e0e0e0" rx="8"/>
+            
+            <!-- Kepala Siluet -->
+            <circle cx="100" cy="75" r="40" fill="#c4a484"/>
+            <circle cx="300" cy="75" r="40" fill="#c4a484"/>
+
+            <!-- Gaya Rambut (Pompadour) -->
+            <path d="M 60 35 Q 100 10, 140 35 L 140 75 L 60 75 Z" fill="#4a2c2a"/>
+            <path d="M 260 35 Q 300 10, 340 35 L 340 75 L 260 75 Z" fill="#4a2c2a"/>
+
+            <!-- Pisau Cukur/Gunting -->
+            <rect x="170" y="40" width="60" height="10" fill="#a0522d" rx="2"/>
+            <rect x="180" y="50" width="5" height="50" fill="#333"/>
+            <text x="200" y="115" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">47</text>
+            
+            <style>
+                .barber-svg path { transition: fill 0.3s; }
+                .barber-svg:hover path { fill: #6b4226; }
+            </style>
+        </svg>
+
+
+        <section class="content-section">
+            <h2>Selamat Datang di 47 Barber Shop</h2>
+            <p>
+                Di tengah hiruk pikuk kota, 47 Barber Shop hadir sebagai oase bagi pria yang menghargai seni potong rambut tradisional dipadukan dengan teknik modern. Kami bukan sekadar tukang cukur; kami adalah ahli gaya yang berdedikasi untuk memastikan setiap klien meninggalkan kursi kami dengan penampilan yang tajam, percaya diri, dan sesuai dengan karakter mereka. Kami percaya bahwa potongan rambut yang baik adalah investasi, bukan sekadar pengeluaran.
+            </p>
+            <p>
+                Sejak awal berdirinya, misi kami adalah mempertahankan standar kualitas tertinggi. Dari pemangkasan janggut yang presisi hingga fade klasik yang mulus, setiap detail diperhatikan. Kami menggunakan hanya peralatan terbaik dan produk perawatan premium yang diformulasikan khusus untuk kesehatan rambut dan kulit kepala pria.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Mengapa Memilih 47 Barber Shop?</h2>
+            <p>
+                Kami memahami bahwa pengalaman bercukur adalah ritual. Di 47 Barber Shop, kami menciptakan suasana yang santai, maskulin, dan bersahabat. Suara gunting yang beradu, aroma minyak janggut berkualitas, serta alunan musik yang menenangkan akan menemani sesi perawatan Anda.
+            </p>
+            
+            <ul>
+                <li><strong>Keahlian Profesional:</strong> Tim kami terdiri dari barber berpengalaman yang selalu mengikuti tren terbaru namun tetap menguasai teknik klasik.</li>
+                <li><strong>Fokus Klien:</strong> Konsultasi mendalam sebelum pemotongan untuk memastikan hasil akhir sesuai dengan harapan Anda.</li>
+                <li><strong>Lingkungan Premium:</strong> Kebersihan adalah prioritas. Semua alat disterilisasi secara ketat sebelum dan sesudah digunakan.</li>
+                <li><strong>Produk Unggulan:</strong> Kami hanya merekomendasikan dan menggunakan produk perawatan rambut pria terbaik di pasar.</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Layanan Eksklusif Kami</h2>
+            <p>Temukan layanan yang paling sesuai dengan kebutuhan gaya Anda.</p>
+            <ul class="services-list">
+                <li>
+                    <span>Potong Rambut Klasik (Buzz Cut, Taper)</span>
+                    <span class="price">Rp 50.000</span>
+                </li>
+                <li>
+                    <span>Gaya Modern (Fade, Undercut, Textured Crop)</span>
+                    <span class="price">Rp 75.000</span>
+                </li>
+                <li>
+                    <span>Janggut & Kumis (Trimming & Shaping)</span>
+                    <span class="price">Rp 45.000</span>
+                </li>
+                <li>
+                    <span>Paket Lengkap (Rambut + Janggut + Hot Towel Shave)</span>
+                    <span class="price">Rp 120.000</span>
+                </li>
+                <li>
+                    <span>Perawatan Kulit Kepala Eksklusif</span>
+                    <span class="price">Rp 60.000</span>
+                </li>
+            </ul>
+            <p style="text-align: center; margin-top: 15px; font-style: italic;">*Harga dapat bervariasi tergantung kompleksitas gaya.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Dapatkan Tampilan Terbaik Anda Hari Ini</h2>
+            <p>
+                Jangan biarkan rambut Anda berbicara buruk tentang Anda. Jadwalkan kunjungan Anda ke 47 Barber Shop sekarang juga. Kami menantikan kesempatan untuk meningkatkan level penampilan Anda. Kunjungi kami di pusat kota, atau hubungi kami untuk reservasi.
+            </p>
+            <p style="font-weight: bold; color: #a0522d;">Lokasi: [Alamat Lengkap Anda]</p>
+            <p style="font-weight: bold; color: #a0522d;">Kontak: [Nomor Telepon atau Link Reservasi]</p>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 47 Barber Shop. Fokus pada Kualitas dan Gaya.
+    </footer>
+
+<script src="/ik.js"></script>
+<div class="related"><h3>Related Posts</h3><ul>
+<li><a href="/4barber">4Barber</a></li>
+<li><a href="/101-bandara">101 Bandara</a></li>
+<li><a href="/3-in-1-barbershop">3 In 1 Barbershop</a></li>
+<li><a href="/50-jenis-aglonema">50 Jenis Aglonema</a></li>
+<li><a href="/5-contoh-kemitraan-agribisnis">5 Contoh Kemitraan Agribisnis</a></li>
+<li><a href="/0-km-aceh">0 Km Aceh</a></li>
+<li><a href="/1o1-barber">1O1 Barber</a></li>
+<li><a href="/7-barber">7 Barber</a></li>
+<li><a href="/28-adab-membaca-al-qur-an">28 Adab Membaca Al Qur An</a></li>
+<li><a href="/7-bidadari-seminyak">7 Bidadari Seminyak</a></li>
+<li><a href="/98-barber-shop">98 Barber Shop</a></li>
+<li><a href="/2bar">2Bar</a></li>
+</ul></div>
+<div style="text-align:center; margin:30px 0;"><a href="/" style="text-decoration:none; font-size:18px;">🏠 Homepage</a></div>
+</body>
+</html>

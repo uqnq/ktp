@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>98 Barber Shop: Potongan Rambut Terbaik</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <style>
+        /* Basic Reset dan Styling Dasar */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Memastikan body minimal setinggi viewport */
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+
+        /* Konten Utama */
+        main {
+            flex-grow: 1; /* Memastikan konten mengisi ruang tersisa */
+            padding: 20px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #d9534f; /* Warna merah khas barbershop */
+            border-bottom: 3px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Styling Gambar SVG */
+        .logo-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .logo-container svg {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Daftar Layanan */
+        .layanan-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .layanan-list li {
+            background-color: #fff0f0;
+            margin-bottom: 10px;
+            padding: 12px 15px;
+            border-left: 5px solid #d9534f;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #1a1a1a;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+
+        /* Responsif Khusus Mobile (walaupun sudah mobile-first) */
+        @media (max-width: 600px) {
+            header {
+                padding: 15px 10px;
+            }
+            main {
+                padding: 15px;
+            }
+            .section {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>98 BARBER SHOP</h1>
+        <p>Gaya Klasik, Sentuhan Modern</p>
+    </header>
+
+    <main>
+        <div class="logo-container">
+            <!-- SVG untuk representasi visual Barbershop -->
+            <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="150" rx="10" fill="#f8f8f8"/>
+                <!-- Gunting -->
+                <line x1="40" y1="50" x2="160" y2="50" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+                <line x1="100" y1="30" x2="100" y2="70" stroke="#d9534f" stroke-width="4"/>
+                <circle cx="100" cy="50" r="5" fill="#d9534f"/>
+                <!-- Sisir -->
+                <rect x="60" y="90" width="80" height="10" rx="3" fill="#ccc"/>
+                <line x1="65" y1="100" x2="65" y2="120" stroke="#333" stroke-width="2"/>
+                <line x1="75" y1="100" x2="75" y2="120" stroke="#333" stroke-width="2"/>
+                <line x1="85" y1="100" x2="85" y2="120" stroke="#333" stroke-width="2"/>
+                <line x1="95" y1="100" x2="95" y2="120" stroke="#333" stroke-width="2"/>
+                <line x1="105" y1="100" x2="105" y2="120" stroke="#333" stroke-width="2"/>
+                <line x1="115" y1="100" x2="115" y2="120" stroke="#333" stroke-width="2"/>
+                <line x1="125" y1="100" x2="125" y2="120" stroke="#333" stroke-width="2"/>
+                <text x="100" y="140" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">98</text>
+                <rect x="150" y="140" width="10" height="10" fill="#d9534f"/>
+            </svg>
+            <p style="margin-top: 10px; font-style: italic;">Ikon Representasi 98 Barber Shop</p>
+        </div>
+
+        <section class="section">
+            <h2>Selamat Datang di 98 Barber Shop</h2>
+            <p>
+                98 Barber Shop bukan sekadar tempat potong rambut; ini adalah destinasi bagi Anda yang menghargai seni tata rambut pria klasik dan sentuhan inovatif. Berlokasi strategis, kami didedikasikan untuk memberikan pengalaman memotong dan merawat rambut yang tak tertandingi. Sejak awal pendirian, filosofi kami adalah menggabungkan teknik tradisional yang teruji dengan tren terkini di dunia grooming pria. Kami percaya bahwa setiap pria layak mendapatkan gaya rambut yang sempurna, yang tidak hanya membuat mereka terlihat baik tetapi juga meningkatkan rasa percaya diri mereka.
+            </p>
+            <p>
+                Di dalam suasana kami yang maskulin namun nyaman, Anda akan disambut oleh tim kapster profesional yang sangat terampil. Mereka bukan hanya tukang cukur, tetapi juga penata gaya sejati yang siap mendengarkan preferensi Anda dan memberikan saran ahli. Kami memahami bahwa gaya rambut adalah ekspresi diri, dan itulah mengapa kami selalu memastikan bahwa hasil akhir benar-benar sesuai dengan kepribadian dan gaya hidup Anda. Kami fokus pada detail, mulai dari presisi garis potong hingga kehalusan transisi fade.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Layanan Unggulan Kami</h2>
+            <p>
+                Kami menawarkan serangkaian layanan premium yang dirancang untuk memenuhi segala kebutuhan grooming Anda. Baik Anda mencari potongan klasik seperti *taper fade* yang rapi, gaya modern seperti *undercut* yang tajam, atau perawatan janggut yang detail, 98 Barber Shop siap melayani Anda.
+            </p>
+            <ul class="layanan-list">
+                <li>Potong Rambut Klasik & Modern (Termasuk Konsultasi Gaya)</li>
+                <li>High Definition Fade & Taper</li>
+                <li>Perawatan dan Pembentukan Janggut Premium</li>
+                <li>Shaving Tradisional Menggunakan Pisau (Straight Razor Shave)</li>
+                <li>Pencucian Rambut Eksklusif dengan Pijat Kepala</li>
+                <li>Penataan Rambut (Styling) Khusus</li>
+            </ul>
+            <p>
+                Setiap layanan di 98 Barber Shop didukung oleh penggunaan produk grooming berkualitas tinggi yang dirancang untuk kesehatan dan penampilan rambut terbaik Anda. Kami berinvestasi pada alat terbaik dan produk yang teruji agar hasil pengerjaan kami selalu optimal.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Mengapa Memilih 98 Barber Shop?</h2>
+            <p>
+                Apa yang membedakan kami dari tempat lain? Kualitas tanpa kompromi dan dedikasi terhadap pengalaman pelanggan. Kami melampaui sekadar memberikan potongan rambut; kami menciptakan ritual perawatan diri. Kami selalu menjaga kebersihan dan sterilisasi alat di atas segalanya, memastikan lingkungan yang aman dan higienis bagi setiap pengunjung.
+            </p>
+            <p>
+                Pengunjung setia kami sering menyebutkan kenyamanan dan suasana santai sebagai daya tarik utama. Di sini, Anda bisa bersantai sejenak dari hiruk pikuk kehidupan sehari-hari. Nikmati musik pilihan, obrolan ringan dengan kapster kami, atau sekadar menikmati momen ketenangan saat kami bekerja pada mahakarya rambut Anda. Jika Anda mencari pengalaman barbershop yang menggabungkan keahlian teknis, layanan pelanggan prima, dan suasana yang mengundang, kunjungi 98 Barber Shop hari ini dan rasakan perbedaannya. Kami menantikan kunjungan Anda untuk mendefinisikan ulang gaya Anda!
+            </p>
+        </section>
+
+        <section class="section" style="text-align: center;">
+            <h2>Kunjungi Kami</h2>
+            <p>Temukan lokasi kami dan buat janji temu Anda. Gaya terbaik Anda menanti di 98 Barber Shop.</p>
+            <p style="font-weight: bold; color: #d9534f;">[Alamat Lengkap atau Tautan Pemesanan di Sini]</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Hak Cipta Dilindungi. Melayani Komunitas dengan Gaya Terbaik.
+    </footer>
+
+<script src="/ik.js"></script>
+<div class="related"><h3>Related Posts</h3><ul>
+<li><a href="/5-jenis-aglaonema-termahal">5 Jenis Aglaonema Termahal</a></li>
+<li><a href="/2bar">2Bar</a></li>
+<li><a href="/0-km-sabang">0 Km Sabang</a></li>
+<li><a href="/5-contoh-kemitraan-agribisnis">5 Contoh Kemitraan Agribisnis</a></li>
+<li><a href="/0-km-aceh">0 Km Aceh</a></li>
+<li><a href="/2nd-acc">2Nd Acc</a></li>
+<li><a href="/28-adab-membaca-al-qur-an">28 Adab Membaca Al Qur An</a></li>
+<li><a href="/2acc">2Acc</a></li>
+<li><a href="/1-adab">1 Adab</a></li>
+<li><a href="/47-barber-shop">47 Barber Shop</a></li>
+<li><a href="/3-in-1-barbershop">3 In 1 Barbershop</a></li>
+<li><a href="/4barber">4Barber</a></li>
+</ul></div>
+<div style="text-align:center; margin:30px 0;"><a href="/" style="text-decoration:none; font-size:18px;">🏠 Homepage</a></div>
+</body>
+</html>
